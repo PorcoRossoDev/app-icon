@@ -3,14 +3,18 @@ import COLORS from '../../contain/colors'
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+        flex: 0.8,
         flexDirection: 'row',
         justifyContent: 'space-between',
         marginTop: 70,
     },
     item: {
-        paddingVertical: 5,
-        paddingHorizontal: 15,
+        width: '30%',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 'auto',
+        // paddingVertical: 5,
+        // paddingHorizontal: 15,
         borderRadius: 20,
         textAlign: 'center'
     },
