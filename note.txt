@@ -1,0 +1,5 @@
+1 ============================// Khởi tạo project blank
+- npx create-expo-app my-app --template blank
+
+2 ============================// Cài thêm phần: Safearea
+- npx expo install react-native-safe-area-context
