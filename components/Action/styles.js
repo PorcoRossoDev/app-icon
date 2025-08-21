@@ -13,14 +13,12 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         height: 'auto',
-        // paddingVertical: 5,
-        // paddingHorizontal: 15,
         borderRadius: 20,
         textAlign: 'center'
     },
     icon: {
-        width: '74',
-        height: '74'
+        width: '70',
+        height: '70'
     },
     funny: {
         backgroundColor: COLORS.funny

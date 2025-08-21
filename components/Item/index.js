@@ -1,13 +1,12 @@
 import { View, Text, Image } from "react-native"
 import styles from "./styles";
-import IMAGES from '../../contain/images'
 
-export default function Item() {
+export default function Item({data}) {
     return (
     <View style={styles.container}>
-        <Text style={styles.text}>Chú chó đáng yêu</Text>
+        <Text style={styles.text}>{data.name}</Text>
         <View style={styles.box}>
-            <Image source={IMAGES.Dog1} style={styles.image} />
+            <Image source={data.image} style={styles.image} />
         </View>
     </View>
     );

@@ -3,3 +3,6 @@
 
 2 ============================// Cài thêm phần: Safearea
 - npx expo install react-native-safe-area-context
+
+3 ============================// Cài đặt Redux/toolkit
+- npm install @reduxjs/toolkit react-redux
