@@ -9,14 +9,16 @@ const styles = StyleSheet.create({
         marginTop: 70,
     },
     item: {
-        paddingVertical: 5,
-        paddingHorizontal: 15,
+        width: '30%',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 'auto',
         borderRadius: 20,
         textAlign: 'center'
     },
     icon: {
-        width: '74',
-        height: '74'
+        width: '70',
+        height: '70'
     },
     funny: {
         backgroundColor: COLORS.funny
