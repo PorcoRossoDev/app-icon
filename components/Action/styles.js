@@ -3,7 +3,7 @@ import COLORS from '../../contain/colors'
 
 const styles = StyleSheet.create({
     container: {
-        flex: 0.8,
+        flex: 1,
         flexDirection: 'row',
         justifyContent: 'space-between',
         marginTop: 70,

@@ -5,10 +5,24 @@ const favorStore = createSlice({
     initialState: [],
     reducers: {
         add: (state, action) => {
-            state.push(action.payload)
+            console.log('Add: ', action.payload) 
+            const activeItem = state.find(item => item.id === action.payload.id)
+            if( activeItem ) {
+                state.map(item => {
+                    if( item.id === action.payload.id) {
+                        item.status = action.payload.status
+                    }
+                    return item
+                })
+                return state
+            } else {
+                state.push(action.payload)
+            }
         },
-        remove: (state) => {
-            console.log('REMOVE')
+        remove: (state, action) => {
+            console.log('Remove: ', action.payload)
+            return state.filter(item => item.id !== action.payload.id)
+            console.log('List remove: ', state)
         }
     }
 })

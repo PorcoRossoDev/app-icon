@@ -5,6 +5,9 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
+    wrapper: {
+        flex: 5
+    },
     mainWrapper: {
         paddingHorizontal: 20,
         flex: 1,
